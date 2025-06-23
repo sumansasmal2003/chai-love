@@ -6,13 +6,13 @@ import ChaGolpo from './ChaGolpo';
 const MainPage = () => {
   return (
     <div
-      className='flex flex-col bg-gradient-to-r from-zinc-800 via-slate-300 to-zinc-400 min-h-screen justify-center items-center text-white p-6 md:p-12'
+      className='flex flex-col bg-gradient-to-br from-[#C47632] via-[#C47647] to-[#C47732] min-h-screen justify-center items-center text-white p-6 md:p-12'
     >
       <div
         className='flex flex-col md:flex-row w-full max-w-7xl justify-between items-center gap-12 shadow-xl p-6 md:p-12 bg-white/10 backdrop-blur-lg rounded-lg'
       >
         <div
-          className='flex flex-col items-start justify-center p-8 gap-2'
+          className='hidden md:flex flex-col items-start justify-center p-8 gap-2'
         >
           <p className='text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-zinc-100 via-slate-200 to-white'>এক কাপ চা, হাজারো গল্পের শুরু।</p>
           <p className='text-xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-zinc-100 via-slate-200 to-white'>চা শুধু পানীয় নয়, এক অনুভূতি।</p>

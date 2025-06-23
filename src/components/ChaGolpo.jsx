@@ -3,7 +3,7 @@ import React from 'react'
 const ChaGolpo = ({ image, heading, story }) => {
   return (
     <div
-      className='flex flex-col items-center justify-center bg-gradient-to-r from-zinc-300 via-slate-800 to-black min-h-screen p-6 md:p-12 text-white rounded-lg shadow-inner'
+      className='flex flex-col items-center justify-center bg-gradient-to-r from-[#C47632] via-[#C47647] to-[#C47732] min-h-screen p-6 md:p-12 text-white rounded-lg shadow-inner'
     >
       <div
         className='flex flex-col w-full max-w-7xl justify-between items-center gap-12 shadow-xl p-6 md:p-12 bg-white/10 backdrop-blur-lg rounded-lg'
